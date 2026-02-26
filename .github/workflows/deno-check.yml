@@ -10,7 +10,7 @@ on:
 
 jobs:
   check:
-    if: github.repository == 'catppuccin/userstyles'
+    if: github.repository == 'pepsimax271000/userstyles'
     runs-on: ubuntu-latest
 
     steps:

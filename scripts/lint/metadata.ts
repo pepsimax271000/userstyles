@@ -152,7 +152,7 @@ export async function verifyMetadata(
 }
 
 function generateAssertions(userstyle: string, userstyles: Userstyles) {
-  const prefix = "https://github.com/catppuccin/userstyles";
+  const prefix = "https://github.com/pepsimax271000/userstyles";
   const userstyleData = userstyles[userstyle];
 
   if (!userstyleData) {
@@ -172,7 +172,7 @@ function generateAssertions(userstyle: string, userstyles: Userstyles) {
         ...Object.values(userstyleData.supports ?? {}).map(({ name }) => name),
       ].join("/")
     } Catppuccin`,
-    namespace: `github.com/catppuccin/userstyles/styles/${userstyle}`,
+    namespace: `github.com/pepsimax271000/userstyles/styles/${userstyle}`,
     homepageURL: `${prefix}/tree/main/styles/${userstyle}`,
     description: `Soothing pastel theme for ${
       formatListOfItems([
@@ -181,7 +181,7 @@ function generateAssertions(userstyle: string, userstyles: Userstyles) {
       ])
     }`,
     author: "Catppuccin",
-    updateURL: `${prefix}/raw/main/styles/${userstyle}/catppuccin.user.less`,
+    updateURL: `${prefix}/raw/master/styles/${userstyle}/catppuccin.user.less`,
     supportURL: `${prefix}/issues?q=is%3Aopen+is%3Aissue+label%3A${userstyle}`,
     license: "MIT",
     preprocessor: "less",

@@ -9,8 +9,8 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/userstyles/issues?q=is%3Aissue+is%3Aopen+label%3Astartpage"><img src="https://img.shields.io/github/issues/catppuccin/userstyles/startpage?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://raw.githubusercontent.com/catppuccin/userstyles/main/styles/startpage/catppuccin.user.less"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
+	<a href="https://github.com/pepsimax271000/userstyles/issues?q=is%3Aissue+is%3Aopen+label%3Astartpage"><img src="https://img.shields.io/github/issues/pepsimax271000/userstyles/startpage?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://raw.githubusercontent.com/pepsimax271000/userstyles/master/styles/startpage/catppuccin.user.less"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
 </p>
 
 ## Usage
